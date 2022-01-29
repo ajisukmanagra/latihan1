@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2980b9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="SMK NURUL ISLAM CIANJUR"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonsiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="70dp"
+        android:drawableTop="@drawable/home"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/buttonguru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="53dp"
+        android:layout_toRightOf="@+id/buttonsiswa"
+        android:drawableTop="@drawable/produk"
+        android:text="produk" />
+
+    <Button
+        android:id="@+id/buttonkelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="228dp"
+        android:drawableTop="@drawable/pelanggan"
+        android:text="pelanggan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="COPYRIGTH BY NURIS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:layout_below="@+id/buttonguru"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginLeft="234dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="214dp"
+        android:drawableTop="@drawable/pembayaran"
+        android:text="Pembayaran" />
+</RelativeLayout>
+
+
+
+
+
+
+
